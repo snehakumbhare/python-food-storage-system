@@ -23,6 +23,7 @@ class Food:
             con = input("Continue To Add Food Yes or No (Y/N): ")
             if(con == 'N' or con == "n"):
                 break
+                
         # print(self.a)
     def update(self):  #To Update Food
         ent = int(input("Enter food Id Want to update: "))
